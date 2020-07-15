@@ -10,6 +10,12 @@ $router->namespace("App\Controllers");
 
 $router->group('/');
 $router->get('/', 'LoginController:index');
+$router->post('/', 'LoginController:login');
+
+$router->group('/user');
+$router->get('/', function() {
+    echo $_SESSION['name'];
+});
 
 $router->group('/error');
 $router->get('/', function() {

@@ -39,3 +39,13 @@
         transform: translateY(0px);
     }
 }
+
+@keyframes animeBox {
+    from {
+        left: -300px;
+    }
+
+    to {
+        left: 0;
+    }
+}

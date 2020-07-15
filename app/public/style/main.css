@@ -88,6 +88,21 @@ html, body {
     animation: animeBottom 3s infinite;
 }
 
+.box-alert {
+    width: 200px;
+    text-align: center;
+    font-size: 19px;
+    color: white;
+    height: 40px;
+    padding: 6px 0;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: -300px;
+    background: #E7008A;
+    animation: animeBox 1s forwards;
+}
+
 @media screen and (max-width: 990px) {
     .container {
         max-width: 400px;
