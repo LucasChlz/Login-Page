@@ -135,4 +135,8 @@ html, body {
         padding: 0 5%;
         top: 20px;
     }
+
+    .content {
+        bottom: -150px;
+    }
 }
