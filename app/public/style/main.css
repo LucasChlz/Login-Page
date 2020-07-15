@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    max-width: 500px;
+    background: white;
+    height: 400px;
+    position: relative;
+    top: -90px;
+    left: 0;
+    z-index: 999;
+    padding: 0 2%;
+    margin: 0 auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.form-login h2 {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.form-login input[type=email],
+.form-login input[type=password] {
+    width: 100%;
+    height: 40px;
+    padding: 0 2%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.form-login input[type=email] {
+    margin-bottom: 30px;
+}
+
+.form-login input[type=email]:focus,
+.form-login input[type=password]:focus {
+    outline: none;
+}
+
+.form-login button {
+    width: 100%;
+    margin-top: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: #00cba9;
+    color: white;
+    font-size: 17px;
+    border: 0;
+    height: 40px;
+}
+
+.background-svg {
+    width: 100%;
+    height: 100%;
+    background-color: #e6ede8;
+}
+
+.svg-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.svg-bt-1 {
+    animation: animeLeft 3s infinite;
+}
+
+.svg-bt-2 {
+    animation: animeRight 3s infinite;
+}
+
+.svg-bt-3 {
+    animation: animeBottom 3s infinite;
+}
+
+@keyframes animeLeft {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(30px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes animeRight {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-30px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes animeBottom {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
