@@ -13,9 +13,8 @@ $router->get('/', 'LoginController:index');
 $router->post('/', 'LoginController:login');
 
 $router->group('/user');
-$router->get('/', function() {
-    echo $_SESSION['name'];
-});
+$router->get('/', 'UserController:index');
+$router->post('/loggout', 'UserController:loggout');
 
 $router->group('/error');
 $router->get('/', function() {

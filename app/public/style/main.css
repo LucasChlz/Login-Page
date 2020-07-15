@@ -64,6 +64,32 @@ html, body {
     height: 40px;
 }
 
+.content {
+    max-width: 500px;
+    text-align: center;
+    height: 400px;
+    position: relative;
+    bottom: 50px;
+    z-index: 999;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.loggout {
+    width: 200px;
+    margin-top: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    background: #cb0044;
+    color: white;
+    font-size: 17px;
+    border: 0;
+    height: 40px;
+}
+
 .background-svg {
     width: 100%;
     height: 100%;
