@@ -6,6 +6,7 @@
     <title>make your login</title>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?= CSS; ?>/main.css" />
+    <link rel="stylesheet" href="<?= CSS; ?>/animation.css" />
 </head>
 <body>
 
